@@ -1,0 +1,108 @@
+
+.container{
+    background: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+}
+.container h1{
+    padding: 20px;
+}
+.home{
+    display: flex;
+    justify-content: space-between;
+}
+.home h1{
+    padding: 20px;
+}
+.container2{
+   
+    margin:0 auto; 
+}
+article{
+    border: 1px solid black;
+    padding: 20px;
+    margin: 50px;
+    display: flex;
+    border-radius: 10px;
+    background: whitesmoke;
+    
+}
+
+article .article-image{
+    background: blueviolet;
+    height: 100px;
+    width: 100px;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+article .article-text h1{
+    margin: 0;
+}
+.container1{
+    display: flex;
+    justify-content: center;
+    padding :0px;
+}
+.header{
+    display: flex;
+    background:red;
+    border: 3px solid black;
+}
+.header h1{
+   padding-left: 900px; 
+}
+.list{
+    display: flex;
+}
+.list li{
+    margin:20px;
+}
+button{
+    border-radius: 4px;
+}
+button.button-prymary{
+    background: orchid;
+}
+button.button-error{
+    background: palegreen;
+}
+button.button-second{
+    background: blue;
+}
+.container3{
+    background: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+    padding:20px;
+}
+body{
+    font-family:sans-serif;
+}
+.homee{
+    display:flex;  
+}
+.home3{
+    padding-right: 60px;
+}
+.slider{
+    display: flex;
+    overflow: hidden;
+}
+.slider div{
+    background: blue;
+    height:300px;
+    border: 1px solid;
+    width: 100%;
+    flex: none;
+    transition: 3;
+}
+div.slide-1{
+    background: olive;
+}
+
+div.slide-2{
+    background: orange;
+}
+div.slide-3{
+    background: orchid;
+}
