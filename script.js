@@ -45,23 +45,3 @@ prev.addEventListener("click", function() {
   }
 });
 
-// console.log(carouselItem)
-//AJAX
-const listContainer = document.getElementsByClassName("container2")[0];
-fetch('https://jsonplaceholder.typicode.com/todos')
-  .then(response => response.json())
-  .then(json => {
-    json.map(item =>{
-        listContainer.innerHTML += `
-        <div class="card">
-  <div class="card-header">
-    Featured
-  </div>
-  <div class="card-body">
-    <h5 class="card-title">${item.title}</h5>
-    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
-  </div>
-</div>`
-    })
-  })

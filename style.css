@@ -1,8 +1,14 @@
 
+.back{
+    background: whitesmoke; 
+    
+}
+
 .container{
-    background: whitesmoke;
     display: flex;
     justify-content: space-between;
+    margin: 20px;
+    max-width: 768px;
 }
 .container h1{
     padding: 20px;
@@ -10,21 +16,25 @@
 .home{
     display: flex;
     justify-content: space-between;
+    width: 100%;
 }
 .home h1{
     padding: 20px;
 }
 .container2{
-   
+    background: whitesmoke;
+    display: flex;
     margin:0 auto; 
 }
 article{
     border: 1px solid black;
-    padding: 20px;
-    margin: 50px;
-    display: flex;
+    padding: 10px;
+    margin: 30px;
+    display: flex !important;
     border-radius: 10px;
     background: whitesmoke;
+    width:90%;
+    height: 80%;
     
 }
 
@@ -34,10 +44,13 @@ article .article-image{
     width: 100px;
     margin-right: 20px;
     border-radius: 10px;
+    flex: none;
 }
 article .article-text h1{
     margin: 0;
+    font-size: 16px;
 }
+
 .container1{
     display: flex;
     justify-content: center;
@@ -69,11 +82,22 @@ button.button-error{
 button.button-second{
     background: blue;
 }
+#prev{
+    position: absolute;
+    top: 50%;
+}
+#next{
+    position: absolute;
+    right:0;
+    top: 50%;
+}
 .container3{
-    background: whitesmoke;
     display: flex;
     justify-content: space-between;
     padding:20px;
+    max-width: 100%;
+    margin-top: 20px ;
+
 }
 body{
     font-family:sans-serif;
@@ -106,3 +130,43 @@ div.slide-2{
 div.slide-3{
     background: orchid;
 }
+
+/* .pemb{
+    background: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+    padding:20px;
+    max-width: 100%;
+} */
+.pem{
+    max-width: 960px;
+    margin: 0 auto;
+    
+}
+.pem2{
+  margin-bottom:20px;
+  position: relative;
+    
+}
+
+div.list-blog {
+    box-sizing: border-box;
+  }
+  
+  .list-blog{
+    display: flex; 
+    flex-wrap:wrap;
+  }
+  .list-blog .blog-item{
+    height:300px;
+    background:#ddd;
+    width:50%;
+    border: 4px solid #fff;
+  }
+@media(max-width:576px){
+    .list-blog .blog-item{
+        width: 100%;
+}
+  .footer{
+    background: whitesmoke;
+  }
